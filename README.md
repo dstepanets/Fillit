@@ -17,7 +17,7 @@ A tetrimino is defined like this, on a 4x4 square:
 ....
 ```
 
-An input file can contain up to 26 such pieces, separated by empty lines. On a solution square pieces are marked by letters in alphabetical order:
+An input file can contain up to 26 such pieces, separated by empty lines. On a solution map pieces are marked by letters in alphabetical order:
 
 ```
 ABBBB.
