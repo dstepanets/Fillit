@@ -1,6 +1,6 @@
 # Fillit
 
-A variant of Tetris game. Fit a set of Tetrimino pieces into the smallest possible square.
+A variant of the Tetris game. Fit a set of Tetrimino pieces into the smallest possible square.
 
 ![](fillit_demo.gif)
 
@@ -46,4 +46,4 @@ You can use `test_files` or create your own.
 
 Simple backtracking was enough for this exercise. First, we count tetriminos and create the smallest map on which this number of 4-square pieces could theoretically fit. Then place them one by one, trying all combinations, and returning to the previous piece if the current one doesn't fit anywhere.
 
-Once we tried all pieces in all positions and haven't found the solution, we extend our map by one and start all over.
+Once we tried all the pieces in all positions and haven't found the solution, we extend our map by one and start all over.
